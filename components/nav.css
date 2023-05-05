@@ -1,0 +1,19 @@
+nav{
+  display: flex;
+  padding-block: 25px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links{
+  display: flex;
+  list-style: none;
+  gap: 10px;
+  padding: 0;
+}
+
+@media (max-width: 48.5rem) {
+  .nav-links li:not(:last-child){
+      display: none;
+  }
+}
